@@ -1,0 +1,130 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8cbcfb, #393E46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con2 {
+    width: 90%;
+    height: 95%;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+}
+.img{
+    display: flex;
+    position: relative;
+}
+.img .girl{
+    width: 410px;
+}
+.img .wel{
+    border-radius: 10px;
+    width: 165px;
+    height: 229px;
+    position: absolute;
+    top: 27px;
+    left: 68px;
+    transform: rotate(-11deg);
+}
+.img .e1{
+    width: 50px;
+    height: 47px;
+    position: absolute;
+    left: 14px;
+    top: 150px;
+}
+.img .e2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 44px;
+    top: 150px;
+}
+.img .e3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 84px;
+    top: 20px;
+}
+.start{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.happy .people{
+    display: flex;
+    color: white;
+}
+
+.people img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.happy{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.last p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #29313d;
+}
+
+.star img{
+    width: 20px;
+}
+
+
+.btn button{
+    background: linear-gradient(to bottom, #8cbcfb, #393E46);
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background: linear-gradient(to bottom, #8cbcfb, #687384);
+}
+
+.start h2{
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+}
+.start p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #29313d;
+}

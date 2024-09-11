@@ -1,0 +1,66 @@
+.scontainer {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8cbcfb, #393E46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbox {
+    width: 30%;
+    height: 90%;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sbox h2{
+    color: white;
+    margin: 0 auto;
+}
+
+.simg img {
+    margin-left: -360px;
+    width: 310px;
+}
+.inputs input{
+    width: 97%;
+    height: 40px;
+    border: 1.5px solid #2a3548;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 20px;
+}
+form button{
+    background: linear-gradient(to bottom, #8cbcfb, #393E46);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 12px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: linear-gradient(to bottom, #8cbcfb, #687384);
+}
+
+.sbox p{
+    margin-left: 40px;
+}
+

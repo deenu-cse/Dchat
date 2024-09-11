@@ -1,0 +1,50 @@
+.lcontainer {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8cbcfb, #393E46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lbox {
+    width: 30%;
+    height: 65%;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lbox h2 {
+    color: white;
+    margin: 0 auto;
+}
+
+.limg img {
+    margin-left: -340px;
+    width: 265px;
+}
+
+.inputs input {
+    width: 97%;
+    height: 40px;
+    border: 1.5px solid #2a3548;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.lbox p {
+    margin-left: 40px;
+}

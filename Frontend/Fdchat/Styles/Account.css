@@ -1,0 +1,138 @@
+.yimg img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.acontainer {
+    display: flex;
+    gap: 50px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;
+    margin: 60px;
+    margin-left: 150px;
+}
+
+.yflex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+hr {
+    border-top: 0.5px solid white;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tflex {
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.fullflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.mypost {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.post-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.post-item img,
+.post-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.post-item::before {
+    content: "";
+    display: block;
+    /* padding-top: 100%;  */
+}
+
+.custom-video::-webkit-media-controls-play-button {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-volume-slider {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+  }
+  .custom-video::-webkit-media-controls-mute-button {
+    display: none !important;
+  }
+
+
+.afirst h1 {
+    margin: 20px;
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8cbcfb, #393E46);
+    overflow-y: scroll;
+}
+
+.yflex button {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #18539f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tflex p {
+    cursor: pointer;
+}
+
+.fllow{
+    margin-top: 15px;
+}
+
+.fllow p{
+    margin-top: 10px;
+}
+
+.follow2{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.follow2 h4{
+    font-size: 19px;
+}
