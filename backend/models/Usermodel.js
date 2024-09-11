@@ -39,7 +39,7 @@ userschema.methods.generatetoken = async function () {
             userid: this._id.toString(),
             email: this.email,
         },
-            process.env.jwt_key, {
+            process.env.JWT_SECRET, {
             expiresIn: "1d",
         });
     } catch (error) {

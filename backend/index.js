@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -5,7 +6,7 @@ const Connectdb = require("./utils/Db");
 const Routes = require("./routes/allroutes");
 
 
-
+const PORT = process.env.PORT
 const app = express();
 
 const corsoptions = {
@@ -24,7 +25,7 @@ app.get('/', (req, res) => {
 });
 
 Connectdb().then(() => {
-    app.listen(5000, () => {
+    app.listen(PORT, () => {
         console.log("Server running on port 5000");
     });
 });
